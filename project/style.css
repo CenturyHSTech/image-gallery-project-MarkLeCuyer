@@ -1,0 +1,11 @@
+body {
+    font-family: "Oswald", serif;
+}
+h1, h2 {
+    font-family: "Playfair Display", serif;
+}
+header{
+    background-image: url("images/mountain-6827881_1280.jpg");
+    background-repeat: no-repeat;
+    height: 300px; 
+}
