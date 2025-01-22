@@ -1,12 +1,50 @@
 body {
     font-family: "Oswald", serif;
+    margin: 0;
+    color: #1A2601; 
+    background-color: #A5B3C5;
 }
 h1, h2 {
     font-family: "Playfair Display", serif;
+    color:#1A2601 ;
 }
-header{
+header {
+    background-color: #ffffff;
     background-image: url("images/mountain-6827881_1280.jpg");
     background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
     height: 300px; 
     padding: 2em;
+    color:#324001;
+}
+header div {
+    background-color: #eff3f7;
+    padding: 1em;
+    max-width: 98%;
+    width: 30em;
+} 
+main {
+    display: flex
+;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+figure {
+    margin: 0.5em;
+    border-color: #324001;
+    border-width: 4px;
+    border-style: solid;
+    padding: 0.5em;
+    width: 300px;
+    background-color: #F2CA50;
+    float: left;
+    box-shadow: 5px 10px 3px black;
+    border-radius: 10px;
+}
+figure img {
+    width: 100%;
+}
+footer {
+    clear: both;
 }
